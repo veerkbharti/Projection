@@ -1,0 +1,113 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    padding: 0px;
+}
+
+header{
+    padding: 0px !important;
+    background: url(../img/banner.jpg) ;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+header .trans-row{
+    background: rgba(79,79,94,0.85);
+}
+header nav{
+    width: 100%;
+    padding: 0px !important;
+    border-bottom: 2px solid grey;
+    height: 120px;
+    margin-bottom: 120px;
+}
+header nav a{
+    color: #ffffff !important;
+}
+/* header .heading{
+    margin-bottom: 100px;
+} */
+header .heading h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+header .heading span{
+    font-size: 30px;
+    color: #6cc091;
+}
+header .heading h2{
+    font-size: 20px;
+    margin: 15px 0px 10px;
+}
+header .heading p{
+    color: rgb(211, 207, 207);
+}
+header .heading .box{
+    border-right: 2px solid grey;
+}
+.myButton{
+    background: transparent;
+    width: 170px;
+    border: 3px solid #6cc091;
+    border-radius: 25px;
+    padding: 8px 0px;
+    color: #6cc091;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+}
+.mid-section .row{
+    text-align: center;
+}
+.mid-section .row img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.mid-section .row p{
+    margin: 25px 12px;
+}
+footer{
+    background-color: #6cc091;
+    color: #ffffff;
+    padding: 100px 0px;
+}
+footer .container h4{
+    text-align: center;
+}
+footer form input{
+    background: transparent !important;
+}
+footer .container .down-row{
+    display: flex;
+    justify-content: center;
+}
+footer .container .down-row button{
+    background: transparent;
+    width: 170px;
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    padding: 8px 0px;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+footer .container .down-row h6{
+    font-size: 12px;
+}
+@media (max-width: 768px){
+    header .heading .box{
+        border: none;
+    }
+}
+@media (max-width: 576px){
+    header .heading h1{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    header nav{
+        margin-bottom: 70px;
+    }
+}
